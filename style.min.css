@@ -101,6 +101,9 @@ h2 {
 .someRight dd {
 	margin-left:25px
 }
+.someRight a {
+	text-decoration: underline;
+}
 .skill-name {
 	width:100px;
 	font-size:14px;
@@ -238,4 +241,8 @@ footer p {
 	-webkit-transform:scale(.8);
 	transform:scale(.8)
 }
+}
+
+.qr {
+	margin: 30px;
 }
