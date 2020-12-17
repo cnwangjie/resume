@@ -142,7 +142,7 @@ h2 {
 	color:#428bca
 }
 .main-info>li {
-	padding-top:20px
+	padding-top:10px
 }
 .main-info dt {
 	font-size:24px;
@@ -198,12 +198,13 @@ h4 a,h5 a {
 .exp p {
 	font-size:15px;
 	line-height:22px;
-	margin-bottom:3px
+	padding-bottom: 3px;
+	text-indent: 2rem;
 }
 .exp>li {
 	position:relative;
 	top:-5px;
-	margin:0 0 20px 20px
+	margin:0 0 10px 10px
 }
 .exp img {
 	width:200px
