@@ -19,7 +19,7 @@
                     <dt>Contact. 联系方式</dt>
                     <dd>Email: <a href="mailto:i@i8e.net" target="_blank">i@i8e.net</a></dd>
                     <dd>Tel: +86-185-5653-9826</dd>
-                    <dd>Wechat: cnWangJie000</dd>
+                    <dd>WeChat: cnWangJie000</dd>
                 </li>
                 <li class="someRight">
                     <!-- <dt>Application. 应聘岗位</dt>
@@ -38,17 +38,19 @@
                 </li>
                 <li class="someRight">
                     <dt>Skill. 技能清单</dt>
-                    <dd><b>编程语言</b>: 泛语言开发；对 JavaScript 有丰富的使用经验，有对于 Golang / C++ / PHP / Scala / Python / Elixir 的使用经验</dd>
+                    <dd><b>编程语言</b>: 泛语言开发；对 JavaScript 有丰富的使用经验，有对于 Golang / Rust / PHP / Scala / Python / Elixir / C++ 的使用经验</dd>
                     <br>
                     <!-- <dd><b>并发编程</b>: 熟悉 JavaScript 非阻塞异步模式的流程控制开发和基于 coroutine 的并发编程</dd>
                     <br> -->
                     <!-- <dd><b>数据库</b>: 熟悉 MySQL，MongoDB 的使用，并且有过使用 Redis Memcached 等 NoSQL 的经验，并对 key-value 数据库有着基本的了解</dd> -->
                     <!-- <br> -->
-                    <dd><b>基础设施</b>: 熟悉 MySQL，MongoDB，Redis，RabbitMQ，Kafka 等计算存储服务的使用，对 key-value 数据存储和分布式原理有着基本的了解</dd>
+                    <dd><b>基础组件</b>: 熟悉 MySQL，MongoDB，Redis，RabbitMQ，Kafka 等计算存储服务的使用，对 key-value 数据存储和分布式原理有着基本的了解</dd>
                     <br>
-                    <dd><b>Linux</b>: 从高中开始日常使用 Linux，对 Linux 环境的开发和服务部署有一定的了解。了解 Docker / Kubernetes 的使用和基本的原理</dd>
+                    <dd><b>Linux</b>: 从高中开始日常使用 Linux，对 Linux 环境的开发和服务部署有一定的了解</dd>
                     <br>
-                    <dd><b>前端</b>: 熟悉 Vue / React 等前端框架和 Webpack 等构建工具的使用</dd>
+                    <dd><b>运维</b>: 独立搭建过个人项目 kubernetes 集群及 CI / CD 流程</dd>
+                    <br>
+                    <dd><b>前端</b>: 熟悉主流前端框架和构建工具的使用</dd>
                     <br>
                     <!-- <dd><b>团队开发</b>: Git 使用习惯良好，熟悉 Trello，Slack，Google Suite 等团队协作工具</dd> -->
                 </li>
@@ -76,15 +78,22 @@
                     <h3>工作经历</h3>
                     <ul class="exp">
                         <li>
-                            <h4>字节跳动 研发工程师 (2019.7 - 至今)</h4>
-                            <p>任职基础架构部门，支撑内部 DevOps 平台开发。作为项目初期成员，承担主要的前端开发和采用 Node.js 和 Golang 实现的微服务及代理服务器开发；部分参与采用 Python，基于 Celery 和 RabbitMQ 进行任务调度的后台服务开发，以及基于 Java 实现的 shell agent 开发。期间对整体架构和各个部分进行了大量的优化，有效降低了后续加入同学的上手难度和维护成本。并为服务的稳定性和可维护性进行了很多建设，帮助项目稳定的承担 16k+ 服务的发布流程和每天 10k+ 次的构建。</p>
+                            <h4>字节跳动 抖音商业化 研发工程师 (2021.1 - 2021.5)</h4>
+                            <p>期间主要承担抖音 POI 相关业务后端开发工作 (如抖音同城页面、视频下方锚点、POI 详情页、活动页等)。维护支撑上亿 DAU 的业务背后的微服务。单个微服务可达百万 QPS，上万实例。</p>
+                            <p>基于 ElasticSearch 搭建并维护数亿规模地点和商品数据的排行、搜索服务，支撑抖音电商同城页面商品的排行展示和推荐业务。并提供给巨量引擎等业务方使用。</p>
+                            <p>基于公司内部 BigTable 实现上亿规模基础地点数据的变更记录和追踪能力。</p>
+                            <p>基于公司内部高速缓存服务、Flink 服务等实现的 TB 级别用户行为数据混合分析处理。</p>
+                        </li>
+                        <li>
+                            <h4>字节跳动 基础架构 研发工程师 (2019.7 - 2021.1)</h4>
+                            <p>支撑内部 DevOps 平台开发。作为项目初期成员，承担主要的前端开发和采用 Node.js 和 Golang 实现的微服务及代理服务器开发；部分参与采用 Python，基于 Celery 和 RabbitMQ 进行任务调度的后台服务开发，以及基于 Java 实现的 shell agent 开发。期间对整体架构和各个部分进行了大量的优化，有效降低了后续加入同学的上手难度和维护成本。并为服务的稳定性和可维护性进行了很多建设，帮助项目稳定的承担 16k+ 服务的发布流程和每天 10k+ 次的构建。</p>
                             <p>通过基于 Python 和 Golang 的 JS 虚拟机实现了前端代码在服务端的复用的工具库。解决了包含复杂逻辑的 DSL 操作相关逻辑在服务端应用的场景，避免重复编写并同时在多端维护相同逻辑。</p>
                             <p>对项目内代码工程质量优化有一定推动。有过多次跨部门的关于函数式编程和跨平台代码复用思想的分享。</p>
                             <p>与互娱研发部门合作共建了 Python 语言的 I18N 代码转换工具。</p>
                             <p>参与前端工程团队建设的内部基础设施 Node.js 的代码库。</p>
                         </li>
                         <li>
-                            <h4>Teambition Node.js 开发实习生 (2018.7 - 2018.9)</h4>
+                            <h4>Teambition 后端开发实习生 (2018.7 - 2018.9)</h4>
                             <p>主要调研 SOA 架构全链路追踪和稳定性监控。开发并开源了适用于 Koa 框架的全链路追踪库以及通用的健康检查库，并在生产环境中投入使用。</p>
                         </li>
                     </ul>
@@ -122,12 +131,8 @@
                             <p>受邀参加开学季面向计科学院内全体新生的宣讲，我的演讲内容为对于 Web 技术、编程语言和信息安全竞赛的科普。</p>
                         </li>
                         <li>
-                            <h4>Web 开发指引 (2017.7)<a href="https://www.cnwangjie.com/task.html" target="_blank">preview</a></h4>
+                            <h4>Web 开发指引 (2017.7)<a href="https://github.com/cnwangjie/web-development-guidance" target="_blank">preview</a></h4>
                             <p>为帮助同学入门 Web 开发所编写的入门指引，基于个人当时对于 Web 开发所需基础技能的理解设计了一些简单的任务。</p>
-                        </li>
-                        <li>
-                            <h4>Robocup 3D 项目 (2016.9 - 2016.11)</h4>
-                            <p>参与 Robocup 3D 项目参赛作品的开发，负责实现通过矩阵运算计算重心坐标以及和其他对象的距离。</p>
                         </li>
                     </ul>
                 </li>
